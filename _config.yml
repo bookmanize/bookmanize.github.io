@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+title:
+logo: /assets/img/logo.png
+description: Advanced bookmarks manager provides tagging, instant sorting, and filtering among all bookmarks on a full list view.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
