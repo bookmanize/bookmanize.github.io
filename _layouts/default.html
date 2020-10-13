@@ -15,9 +15,9 @@
     <div class="wrapper">
       <header>
         <div class="wrapper-header">
-          {% if site.logo %}
+          <a href="{{ "/" | absolute_url }}">
             <img src="{{site.logo | relative_url}}" alt="Logo" />
-          {% endif %}
+          </a>
         </div>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -29,6 +29,10 @@
           <li><a href="https://github.com/bookmanize/bookmanize.github.io">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+
+        <a href="/versions">
+          Versions
+        </a>
       </header>
       <section>
 
