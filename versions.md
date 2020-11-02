@@ -4,6 +4,14 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+ - **1.4.0 - 1.4.1**
+    - Handle folder empty state, rename "Full version" to "Full view"
+    - Trim notification text and add 3 dots at the end when deleting multiple bookmarks
+    - Set maximum height for notification
+    - Optimization: Prevent re-rendering when a folder is clicked if there is no content in it
+    - Fix issue with folder menu disappear when clicking on the folder
+    - Rename the main filter tag from 'Default' to 'All tags'
+    - Reduce notification time
  - **1.3.0**
     - Add multi-select for bookmarks #handle escape key
     - Add multi-select for bookmarks (select tag and remove bm)
