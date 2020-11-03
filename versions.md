@@ -4,6 +4,10 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+ - **1.4.2**
+    - Update UI for empty folder state with new design changes
+    - When deleting multiple bookmarks, set the bm number in the notification header
+    - Drag n drop for tags
  - **1.4.0 - 1.4.1**
     - Handle folder empty state, rename "Full version" to "Full view"
     - Trim notification text and add 3 dots at the end when deleting multiple bookmarks
