@@ -4,7 +4,8 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
- - **1.4.2**
+ - **1.4.2 - 1.4.3**
+    - Save folder open/close state
     - Update UI for empty folder state with new design changes
     - When deleting multiple bookmarks, set the bm number in the notification header
     - Drag n drop for tags
