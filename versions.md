@@ -4,6 +4,9 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+ - **1.4.5**
+    - Update select folder with folder levels
+    - Fix hover menu after drag n drop
  - **1.4.2 - 1.4.4**
     - Fix issue with updating view when editing/deleting bm in search results
     - Save folder open/close state
