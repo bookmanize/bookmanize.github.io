@@ -4,6 +4,9 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+ - **1.4.6**
+    - Add 'Move to folder' when multiselect
+    - Submit forms on press Enter button
  - **1.4.5**
     - Update select folder with folder levels
     - Fix hover menu after drag n drop
