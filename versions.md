@@ -4,6 +4,12 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+- **1.4.7 - 1.4.8**
+    - Fix buttons styling
+    - Create export / import setting
+    - Add Portugal lang
+    - Fix Hide, Undo localization for delete popup
+    - Fix submit form on enter
  - **1.4.6**
     - Add 'Move to folder' when multiselect
     - Submit forms on press Enter button
