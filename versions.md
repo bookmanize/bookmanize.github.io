@@ -4,6 +4,10 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+- **1.4.9**
+    - Update UI for draggable element 
+    - Drag n drop into a folder
+    - Drag n drop multiple bookmarks 
 - **1.4.7 - 1.4.8**
     - Fix buttons styling
     - Create export / import setting
