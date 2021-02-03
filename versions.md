@@ -4,6 +4,10 @@ title: Bookmanize Versions
 ---
 
 # Bookmanize Versions
+- **1.5.0 - 1.5.1**
+    - Add Polish lang
+    - Update styling
+    - Fix font family, update font weight for bm folders
 - **1.4.9**
     - Update UI for draggable element 
     - Drag n drop into a folder
