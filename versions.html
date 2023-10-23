@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bookmanize - Browser extension</title>
+    <link rel="icon" type="image/png" href="assets/img/logo.png?1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand navbar-logo" href="#">
+          <img
+            width="40"
+            src="assets/img/logo.png"
+            alt="Bookmanize"
+            class="logo-1"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.buymeacoffee.com/bookmanize"
+                target="_blank"
+                >☕</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://supportukrainenow.org/"
+                target="_blank"
+                >Ukraine ❤️</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-------Banner Start------->
+    <section class="banner" data-scroll-index="0">
+      <div class="banner-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-sm-12">
+              <div class="versions">
+                <h2 class="white">Versions:</h2>
+                <ul class="root">
+                  <li>
+                    <strong>1.6.18 - 1.6.19</strong>
+                    <ul>
+                      <li>UI improvements</li>
+                      <li>Bug fixes</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.17</strong>
+                    <ul>
+                      <li>Add German language</li>
+                      <li>
+                        Add link to BuyMeACoffee
+                        https://www.buymeacoffee.com/bookmanize
+                      </li>
+                      <li>Add option to show/hide folders in search results</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.16</strong>
+                    <ul>
+                      <li>Add logic for selecting items using the Shift key</li>
+                      <li>
+                        Fix a bug when dragging and dropping between folders
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.15</strong>
+                    <ul>
+                      <li>
+                        Export/import by url, allowing you to export and import
+                        data in any Chromium browser
+                      </li>
+                      <li>Instant installation of current theme</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.12 - 1.6.14</strong>
+                    <ul>
+                      <li>
+                        Favicon icons are displayed in the same way as in the
+                        browser
+                      </li>
+                      <li>Fix issue on the tag page</li>
+                      <li>Reducing package size by 2 times</li>
+                      <li>Improved performance / Improved first boot time</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.11</strong>
+                    <ul>
+                      <li>Add new tag colors</li>
+                      <li>Add info to the export import setting</li>
+                      <li>Fix header search position</li>
+                      <li>
+                        Show the last selected user folder as the default
+                        selected folder when adding a bookmark
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.9 - 1.6.10</strong>
+                    <ul>
+                      <li>Improve drag n drop between folders</li>
+                      <li>Improve performace</li>
+                      <li>Add assistive tooltips</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.8</strong>
+                    <ul>
+                      <li>
+                        Save the search keyword between sessions so that the
+                        user can return to their search
+                      </li>
+                      <li>Open tabs without closing the popup</li>
+                      <li>
+                        Add button to reset the tag filter when viewing no
+                        results
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.5 - 1.6.7</strong>
+                    <ul>
+                      <li>
+                        Multi select using shift
+                        https://github.com/bookmanize/bookmanize.github.io/issues/4
+                      </li>
+                      <li>Improve the quality of favicons</li>
+                      <li>
+                        Allow to add local address bookmark like chrome://
+                        file://
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.6.0 - 1.6.5</strong>
+                    <ul>
+                      <li>
+                        No new tags can be added when colors are exhausted
+                        https://github.com/bookmanize/bookmanize.github.io/issues/5
+                      </li>
+                      <li>Focus input when open select with search</li>
+                      <li>Fixed scroll on main tab view</li>
+                      <li>Fixed dnd for folder items</li>
+                      <li>Improved performance</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.5.9 - 1.5.10</strong>
+                    <ul>
+                      <li>Drag n drop folders</li>
+                      <li>
+                        [feature request] focus searchbox by keyboard shortcuts
+                        https://github.com/bookmanize/bookmanize.github.io/issues/3
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.5.7 - 1.5.8</strong>
+                    <ul>
+                      <li>Fix header buttons margin in popup</li>
+                      <li>
+                        Remove dark theme button from popup. Add search field to
+                        dropdown when select items
+                      </li>
+                      <li>
+                        Fix the drag label when dragging an item that is not in
+                        the selected list
+                      </li>
+                      <li>Add autofocus to the search field</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.5.6</strong>
+                    <ul>
+                      <li>Add search section in the Add Folder popup</li>
+                      <li>Add support for Dark Mode</li>
+                      <li>Migrate to manifest v3</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.5.5</strong>
+                    <ul>
+                      <li>Bug fix for the radio button in the main list</li>
+                      <li>Allow searching in the drop-down list</li>
+                      <li>
+                        In the pop-up windows, open the drop-down list by
+                        clicking on it
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.5.0 - 1.5.4</strong>
+                    <ul>
+                      <li>Add Polish lang</li>
+                      <li>Add Chinese lang</li>
+                      <li>Update styling</li>
+                      <li>
+                        Fix font family, update font weight for bm folders
+                      </li>
+                      <li>Fix issues</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.4.9</strong>
+                    <ul>
+                      <li>Update UI for draggable element</li>
+                      <li>Drag n drop into a folder</li>
+                      <li>Drag n drop multiple bookmarks</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.4.7 - 1.4.8</strong>
+                    <ul>
+                      <li>Fix buttons styling</li>
+                      <li>Create export / import setting</li>
+                      <li>Add Portugal lang</li>
+                      <li>Fix Hide, Undo localization for delete popup</li>
+                      <li>Fix submit form on enter</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.4.6</strong>
+                    <ul>
+                      <li>Add ‘Move to folder’ when multiselect</li>
+                      <li>Submit forms on press Enter button</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.4.5</strong>
+                    <ul>
+                      <li>Update select folder with folder levels</li>
+                      <li>Fix hover menu after drag n drop</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.4.2 - 1.4.4</strong>
+                    <ul>
+                      <li>
+                        Fix issue with updating view when editing/deleting bm in
+                        search results
+                      </li>
+                      <li>Save folder open/close state</li>
+                      <li>
+                        Update UI for empty folder state with new design changes
+                      </li>
+                      <li>
+                        When deleting multiple bookmarks, set the bm number in
+                        the notification header
+                      </li>
+                      <li>Drag n drop for tags</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.4.0 - 1.4.1</strong>
+                    <ul>
+                      <li>
+                        Handle folder empty state, rename “Full version” to
+                        “Full view”
+                      </li>
+                      <li>
+                        Trim notification text and add 3 dots at the end when
+                        deleting multiple bookmarks
+                      </li>
+                      <li>Set maximum height for notification</li>
+                      <li>
+                        Optimization: Prevent re-rendering when a folder is
+                        clicked if there is no content in it
+                      </li>
+                      <li>
+                        Fix issue with folder menu disappear when clicking on
+                        the folder
+                      </li>
+                      <li>
+                        Rename the main filter tag from ‘Default’ to ‘All tags’
+                      </li>
+                      <li>Reduce notification time</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.3.0</strong>
+                    <ul>
+                      <li>Add multi-select for bookmarks #handle escape key</li>
+                      <li>
+                        Add multi-select for bookmarks (select tag and remove
+                        bm)
+                      </li>
+                      <li>Add box shadow for tags</li>
+                      <li>
+                        Add space for the icon in tag manager in the popup view
+                      </li>
+                      <li>
+                        Move bm disabled state to redux, fix disabled state for
+                        virtual scroll
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.2.0</strong>
+                    <ul>
+                      <li>Fix select tag alignment on extension popup</li>
+                      <li>Add label with url on bookmark hovering</li>
+                      <li>
+                        Link tag to the bookmark when adding a tag from the
+                        bookmark section
+                      </li>
+                      <li>Save state for Sort By and Filter By Tag</li>
+                      <li>
+                        Add additional check for tags before creating default
+                        tags
+                      </li>
+                      <li>Add Tag manager text in the popup header</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>1.0.0</strong>
+                    <ul>
+                      <li>Upload extension to chrome market</li>
+                      <li>Add localization for promo fields</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------Banner End------->
+
+    <!-------Video Start------->
+    <section class="video-section prelative text-center white">
+      <div class="section-padding video-overlay">
+        <div class="container">
+          <script
+            type="text/javascript"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+            data-name="bmc-button"
+            data-slug="bookmanize"
+            data-color="#FFDD00"
+            data-emoji="☕"
+            data-font="Cookie"
+            data-text="Buy us a coffee"
+            data-outline-color="#000000"
+            data-font-color="#000000"
+            data-coffee-color="#ffffff"
+          ></script>
+        </div>
+      </div>
+    </section>
+    <!-------Video End------->
+
+    <footer class="footer-copy">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <p>With love from Ukrainian developers♥</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- scrollIt js -->
+    <script src="assets/js/scrollIt.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      wow = new WOW();
+      wow.init();
+      $(document).ready(function (e) {
+        $(".slider").bxSlider({
+          pager: false
+        });
+      });
+
+      $(window).on("scroll", function () {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $(".navbar");
+
+        if (bodyScroll > 50) {
+          navbar.addClass("nav-scroll");
+        } else {
+          navbar.removeClass("nav-scroll");
+        }
+      });
+      $(window).on("load", function () {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $(".navbar");
+
+        if (bodyScroll > 50) {
+          navbar.addClass("nav-scroll");
+        } else {
+          navbar.removeClass("nav-scroll");
+        }
+
+        $.scrollIt({
+          easing: "swing", // the easing function for animation
+          scrollTime: 900, // how long (in ms) the animation takes
+          activeClass: "active", // class given to the active nav element
+          onPageChange: null, // function(pageIndex) that is called when page is changed
+          topOffset: -63
+        });
+      });
+    </script>
+  </body>
+</html>
