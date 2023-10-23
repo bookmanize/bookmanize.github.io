@@ -110,7 +110,7 @@ h6 {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../img/langing/pattern.png);
+	background: url(landing/pattern.png);
 }
 .banner a.weblink {
 	color:#ffffff;
@@ -331,17 +331,17 @@ h6 {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../img/langing/pattern.png);
+	background: url(landing/pattern.png);
 }
 .bx-prev {
 	left: -90px !important;
-	background: url(../img/langing/arrow-left.png) no-repeat !important;
+	background: url(landing/arrow-left.png) no-repeat !important;
 	background-size: auto auto !important;
 	background-size: 100% 100% !important;
 }
 .bx-next {
 	right: -90px !important;
-	background: url(../img/langing/arrow-right.png) no-repeat !important;
+	background: url(landing/arrow-right.png) no-repeat !important;
 	background-size: auto auto !important;
 	background-size: 100% 100% !important;
 }
